@@ -13,6 +13,7 @@ int main() {
     cout <<a.front()<<endl; //element at beginning
     cout <<a.back()<<endl; //element at last
     cout<<a.empty() << endl; // empty array or not (bool - 0 or 1)
-
+    cout<<a.size() << endl; //size of array
+    
     return 0;
 }
